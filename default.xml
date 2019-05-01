@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote name="github" fetch="ssh://git@github.com/prplfoundation" />
+	<default revision="master" remote="github" sync-j="4" />
+
+	<!-- Multi-AP repos -->
+	<project path="multiap/framework" name="intel_multiap_framework"/>
+	<project path="multiap/common" name="intel_multiap_common"/>
+	<project path="multiap/controller" name="intel_multiap_controller" />
+	<project path="multiap/agent" name="intel_multiap_agent" />
+
+</manifest>
