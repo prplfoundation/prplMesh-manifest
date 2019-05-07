@@ -9,5 +9,6 @@
 	<project path="multiap/common" name="intel_multiap_common"/>
 	<project path="multiap/controller" name="intel_multiap_controller" />
 	<project path="multiap/agent" name="intel_multiap_agent" />
+	<project path="multiap/tools" name="intel_multiap_tools" />
 
 </manifest>
