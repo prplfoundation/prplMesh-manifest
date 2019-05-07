@@ -21,4 +21,4 @@ repo sync
 repo forall -p -c 'git checkout $REPO_RREV'
 ```
 ## Build Instructions
-Currently only the framework can be built in native Linux without special dependencies - see https://github.com/prplfoundation/intel_multiap_framework for build instructions.
+Each component can be built with CMAKE, or use maptools.py build command - see [intel_multiap_tools](https://github.com/prplfoundation/intel_multiap_tools)
