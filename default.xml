@@ -7,10 +7,10 @@
 	<project path="dwpal" name="dwpal"/>
 	
 	<!-- Multi-AP repos -->
-	<project path="multiap/framework" name="intel_multiap_framework"/>
-	<project path="multiap/common" name="intel_multiap_common"/>
-	<project path="multiap/controller" name="intel_multiap_controller" />
-	<project path="multiap/agent" name="intel_multiap_agent" />
-	<project path="multiap/tools" name="intel_multiap_tools" />
+	<project path="multiap/framework" name="prplMesh-framework"/>
+	<project path="multiap/common" name="prplMesh-common"/>
+	<project path="multiap/controller" name="prplMesh-controller" />
+	<project path="multiap/agent" name="prplMesh-agent" />
+	<project path="multiap/tools" name="prplMesh-tools" />
 
 </manifest>
