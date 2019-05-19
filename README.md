@@ -1,5 +1,5 @@
-# Intel Multi-AP manifest
-Deploy all multiap repos in a single tree using google repo tool
+# prplMesh manifest
+Deploy all prplMesh repos in a single tree using google repo tool
 
 ## Requirements
 Download & install google repo - https://source.android.com/setup/build/downloading
@@ -21,4 +21,4 @@ repo sync
 repo forall -p -c 'git checkout $REPO_RREV'
 ```
 ## Build Instructions
-Each component can be built with CMAKE, or use maptools.py build command - see [intel_multiap_tools](https://github.com/prplfoundation/intel_multiap_tools)
+Each component can be built with CMAKE, or use maptools.py build command - see [prplMesh-tools](https://github.com/prplfoundation/prplMesh-tools)
