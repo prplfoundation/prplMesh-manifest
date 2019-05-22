@@ -4,7 +4,8 @@
 	<remote name="github" fetch="ssh://git@github.com/prplfoundation" />
 	<default revision="master" remote="github" sync-j="4" />
 
-	<project path="dwpal" name="dwpal"/>
+	<project path="hostap" name="hostap"/>
+	<project path="hostap/dwpal" name="dwpal"/>
 	
 	<!-- Multi-AP repos -->
 	<project path="multiap/framework" name="prplMesh-framework"/>
