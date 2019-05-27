@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+	<remote name="prpl" fetch="ssh://git@github.com/prplfoundation" />
+	<remote name="nanomsg" fetch="ssh://git@github.com/nanomsg" />
+	<remote name="rurban" fetch="ssh://git@github.com/rurban" />
+
+	<default revision="master" remote="prpl" sync-j="4" />
+
+	<project path="hostap" name="hostap"/>
+	
+	<!-- Multi-AP repos -->
+	<project path="multiap/framework" name="prplMesh-framework"/>
+	<project path="multiap/common" name="prplMesh-common"/>
+	<project path="multiap/controller" name="prplMesh-controller" />
+	<project path="multiap/agent" name="prplMesh-agent" />
+	<project path="multiap/tools" name="prplMesh-tools" />
+
+	<!-- upstream nng -->
+	<project path="3rdparty/nng" remote="nanomsg" name="nng" revision="90467583b7544b68483334070518e29b00ec6d81" />
+
+	<!-- upstream safelibc -->
+	<project path="3rdparty/safeclib" remote="rurban"  name="safeclib" revision="ab130d7376267b6deb55e194746fc08d045afa61" />
+</manifest>
