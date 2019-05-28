@@ -7,16 +7,10 @@
 
 	<default revision="master" remote="prpl" sync-j="4" />
 
+	<project path="prplMesh" name="prplMesh"/>
 	<project path="hostap" name="hostap"/>
 	<project path="hostap/dwpal" name="dwpal"/>
 	
-	<!-- Multi-AP repos -->
-	<project path="multiap/framework" name="prplMesh-framework"/>
-	<project path="multiap/common" name="prplMesh-common"/>
-	<project path="multiap/controller" name="prplMesh-controller" />
-	<project path="multiap/agent" name="prplMesh-agent" />
-	<project path="multiap/tools" name="prplMesh-tools" />
-
 	<!-- upstream nng -->
 	<project path="3rdparty/nng" remote="nanomsg" name="nng" revision="90467583b7544b68483334070518e29b00ec6d81" />
 
