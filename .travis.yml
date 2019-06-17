@@ -1,0 +1,24 @@
+
+sudo: required
+os: linux
+language: python2.7
+
+branches:
+  only:
+    - master
+
+env:
+  - BRANCH = $TRAVIS_BRANCH
+
+before_install:
+  - sudo apt update -y
+  - sudo apt install -y build-essential git pkg-config cmake3 automake libtool libnl-3-dev libnl-genl-3-dev libncurses5-dev libssl-dev libjson-c-dev libreadline-dev libjsoncpp-dev
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  - chmod a+x ~/bin/repo
+  - git config --global color.ui false
+
+script:
+  - repo init -u https://github.com/prplfoundation/intel_multiap_manifest.git -b "$BRANCH" -m no-dwpal.xml
+  - repo sync
+  - pip install -r tools/requirements.txt
+  - tools/maptools.py build dep -n

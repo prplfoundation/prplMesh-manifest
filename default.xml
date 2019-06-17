@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <manifest>
-	<remote name="prpl" fetch="ssh://git@github.com/prplfoundation" />
-	<remote name="nanomsg" fetch="ssh://git@github.com/nanomsg" />
-	<remote name="rurban" fetch="ssh://git@github.com/rurban" />
+	<remote name="prpl" fetch="https://github.com/prplfoundation/" pushurl="ssh://git@github.com/prplfoundation" />
+	<remote name="nanomsg" fetch="https://github.com/nanomsg/" pushurl="ssh://git@github.com/nanomsg" />
+	<remote name="rurban" fetch="https://github.com/rurban/" pushurl="ssh://git@github.com/rurban" />
 
 	<default revision="master" remote="prpl" sync-j="4" />
 
