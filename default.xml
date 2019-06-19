@@ -8,7 +8,7 @@
 	<default revision="master" remote="prpl" sync-j="4" />
 
 	<project path="prplMesh" name="prplMesh"/>
-	<project path="hostap" name="hostapd" revision="prpl-mesh"/>
+	<project path="hostap" name="hostap" revision="prpl-mesh"/>
 	<project path="hostap/dwpal" name="dwpal"/>
 
 	<!-- upstream nng -->
