@@ -1,0 +1,26 @@
+
+sudo: required
+dist: xenial
+language: python2.7
+
+services:
+  - docker
+
+branches:
+  only:
+    - master
+
+before_install:
+  - sudo apt-get update
+  - curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+  - chmod a+x ~/bin/repo
+  - git config --global color.ui false
+
+script:
+  - repo init -u .
+  - cp default.xml .repo/manifests/
+  - repo sync
+  - repo forall -p -c 'git checkout $REPO_RREV'
+  - cd prplMesh/tools/docker/builder
+  - sudo docker image build --tag prplmesh-build .
+  - sudo docker container run --interactive --tty --rm prplmesh-build

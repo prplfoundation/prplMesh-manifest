@@ -1,4 +1,6 @@
+
 # prplMesh manifest
+[![Build Status](https://travis-ci.org/prplfoundation/prplMesh-manifest.svg?branch=master)](https://travis-ci.org/prplfoundation/prplMesh-manifest)
 Deploy all prplMesh repos in a single tree using google repo tool
 
 ## Requirements

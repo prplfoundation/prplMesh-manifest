@@ -7,7 +7,7 @@
 
 	<default revision="master" remote="prpl" sync-j="4" />
 
-	<project path="prplMesh" name="prplMesh"/>
+	<project path="prplMesh" name="prplMesh" revision="8442b0efc3ebc69b1d0696940b31e6dc12fd4705"/>
 	<project path="hostap" name="hostap" revision="prpl-mesh"/>
 	<project path="hostap/dwpal" name="dwpal"/>
 
