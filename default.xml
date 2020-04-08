@@ -2,6 +2,7 @@
 
 <manifest>
     <remote name="prpl" fetch="https://github.com/prplfoundation/" pushurl="ssh://git@github.com/prplfoundation" />
+    <remote name="boardfarm" fetch="https://github.com/mattsm/" />
 
     <default revision="master" remote="prpl" sync-j="4" />
 
