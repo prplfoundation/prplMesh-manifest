@@ -7,6 +7,7 @@
     <default revision="master" remote="prpl" sync-j="4" />
 
     <project path="prplMesh" name="prplMesh"/>
+
     <!-- upstream boardfarm -->
     <project path="boardfarm" remote="boardfarm" name="boardfarm" revision="228c3434fe12d596d740a6ab6635dd5f44fa2ae7" />
 </manifest>
