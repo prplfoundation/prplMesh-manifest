@@ -1,3 +1,11 @@
+# OBSOLETE
+
+WARNING: These instructions are obsolete and likely don't work well anymore.
+The prplmesh repository has been moved to https://gitlab.com/prpl-foundation/prplMesh
+A lot of repositories that were once separate have been combined into this one, removing the need for a manifest file.
+Instead of using `repo`, it's recommended now to just use `git clone` to get that code.
+See the project at the new location for more info
+
 # prplMesh manifest
 Deploy all prplMesh repos in a single tree using google repo tool
 
